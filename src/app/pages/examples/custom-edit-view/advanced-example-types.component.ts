@@ -152,7 +152,7 @@ export class AdvancedExamplesTypesComponent {
         editor: {
           type: 'radio',
           config: {
-            list: [{ value: 'hansi', title: 'hansi' }]
+            list: [{ value: 'button1', title: 'button1' }]
           }
         },
       },
@@ -161,7 +161,7 @@ export class AdvancedExamplesTypesComponent {
       editor: {
         type: 'radio',
         config: {
-          list: [{ value: 'penis', title: 'penis' }]
+          list: [{ value: 'button2', title: 'button2' }]
         }
       },
     },
@@ -170,7 +170,7 @@ export class AdvancedExamplesTypesComponent {
         editor: {
           type: 'radio',
           config: {
-            list: [{ value: 'asdasdasd', title: 'asdasd' }]
+            list: [{ value: 'button3', title: 'button3' }]
           }
         },
       },

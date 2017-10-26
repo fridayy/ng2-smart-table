@@ -1,7 +1,7 @@
 {
-  "name": "ng2-smart-table",
-  "version": "1.2.1",
-  "description": "Angular Smart Table",
+  "name": "ng2-smart-table-radio",
+  "version": "1.2.2",
+  "description": "Enhanced Angular Smart Table with radio button support",
   "main": "./bundles/table.umd.js",
   "module": "./index.js",
   "typings": "./index.d.ts",
@@ -11,10 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+http://akveo.github.io/ng2-smart-table.git"
-  },
-  "bugs": {
-    "url": "http://akveo.github.io/ng2-smart-table/issues"
+    "url": "git+https://github.com/fridayy/ng2-smart-table.git"
   },
   "homepage": "http://akveo.github.io/ng2-smart-table/#readme",
   "keywords": [
