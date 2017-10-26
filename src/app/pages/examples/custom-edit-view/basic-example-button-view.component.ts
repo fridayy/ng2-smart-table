@@ -5,7 +5,7 @@ import { ViewCell } from '../../../../ng2-smart-table';
 @Component({
   selector: 'button-view',
   template: `
-    <button (click)="onClick()">{{ renderValue }}</button>
+    <input type="radio">
   `,
 })
 export class ButtonViewComponent implements ViewCell, OnInit {

@@ -21,6 +21,14 @@
                      (onClick)="onClick($event)">
     </checkbox-editor>
 
+    <radiobutton-editor *ngSwitchCase="'radio'"
+                        [cell]="cell"
+                        [inputClass]="inputClass"
+                        (onClick)="onClick($event)"
+                        (onStopEditing)="onStopEditing()"
+    >
+    </radiobutton-editor>
+
     <completer-editor *ngSwitchCase="'completer'"
                       [cell]="cell">
     </completer-editor>

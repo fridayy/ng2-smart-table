@@ -14,6 +14,7 @@ import { SelectEditorComponent } from './cell-editors/select-editor.component';
 import { TextareaEditorComponent } from './cell-editors/textarea-editor.component';
 import { CustomViewComponent } from './cell-view-mode/custom-view.component';
 import { ViewCellComponent } from './cell-view-mode/view-cell.component';
+import {RadiobuttonEditorComponent} from "./cell-editors/radiobutton-editor.component";
 
 const CELL_COMPONENTS = [
   CellComponent,
@@ -21,6 +22,7 @@ const CELL_COMPONENTS = [
   DefaultEditComponent,
   EditCellComponent,
   CheckboxEditorComponent,
+  RadiobuttonEditorComponent,
   CompleterEditorComponent,
   InputEditorComponent,
   SelectEditorComponent,

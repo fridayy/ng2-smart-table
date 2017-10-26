@@ -16,6 +16,7 @@ export class AdvancedExamplesTypesComponent {
       email: 'Sincere@april.biz',
       comments: 'Lorem ipsum dolor sit amet, ex dolorem officiis convenire usu.',
       passed: 'Yes',
+      radiobutton: 'hansi'
     },
     {
       id: 2,
@@ -144,6 +145,33 @@ export class AdvancedExamplesTypesComponent {
         title: 'Comments',
         editor: {
           type: 'textarea',
+        },
+      },
+      radiobutton: {
+        title: 'A',
+        editor: {
+          type: 'radio',
+          config: {
+            list: [{ value: 'hansi', title: 'hansi' }]
+          }
+        },
+      },
+    radiobutton2: {
+      title: 'B',
+      editor: {
+        type: 'radio',
+        config: {
+          list: [{ value: 'penis', title: 'penis' }]
+        }
+      },
+    },
+      radiobutton3: {
+        title: 'C',
+        editor: {
+          type: 'radio',
+          config: {
+            list: [{ value: 'asdasdasd', title: 'asdasd' }]
+          }
         },
       },
       passed: {
